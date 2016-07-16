@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EC6B5B41D3869A400D28BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6B5B31D3869A400D28BF2 /* AppDelegate.swift */; };
-		4EC6B5B61D3869A400D28BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6B5B51D3869A400D28BF2 /* ViewController.swift */; };
-		4EC6B5B91D3869A400D28BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6B5B71D3869A400D28BF2 /* Main.storyboard */; };
-		4EC6B5BB1D3869A400D28BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6B5BA1D3869A400D28BF2 /* Assets.xcassets */; };
-		4EC6B5BE1D3869A400D28BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6B5BC1D3869A400D28BF2 /* LaunchScreen.storyboard */; };
-		4EC6B5D81D38742100D28BF2 /* FaceTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC6B5D31D38740100D28BF2 /* FaceTracker.framework */; };
-		4EC6B5D91D38742100D28BF2 /* FaceTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC6B5D31D38740100D28BF2 /* FaceTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4EC68A0B1D3AB96900BEA1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC68A0A1D3AB96900BEA1B8 /* AppDelegate.swift */; };
+		4EC68A0D1D3AB96900BEA1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC68A0C1D3AB96900BEA1B8 /* ViewController.swift */; };
+		4EC68A101D3AB96900BEA1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC68A0E1D3AB96900BEA1B8 /* Main.storyboard */; };
+		4EC68A121D3AB96900BEA1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC68A111D3AB96900BEA1B8 /* Assets.xcassets */; };
+		4EC68A151D3AB96900BEA1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC68A131D3AB96900BEA1B8 /* LaunchScreen.storyboard */; };
+		4EC68A1D1D3AB9A900BEA1B8 /* FaceTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC68A1C1D3AB9A900BEA1B8 /* FaceTracker.framework */; };
+		4EC68A1E1D3AB9A900BEA1B8 /* FaceTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC68A1C1D3AB9A900BEA1B8 /* FaceTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4EC6B5DA1D38742100D28BF2 /* Embed Frameworks */ = {
+		4EC68A1F1D3AB9AB00BEA1B8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4EC6B5D91D38742100D28BF2 /* FaceTracker.framework in Embed Frameworks */,
+				4EC68A1E1D3AB9A900BEA1B8 /* FaceTracker.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,96 +31,96 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4EC6B5B01D3869A400D28BF2 /* FaceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EC6B5B31D3869A400D28BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EC6B5B51D3869A400D28BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4EC6B5B81D3869A400D28BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EC6B5BA1D3869A400D28BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EC6B5BD1D3869A400D28BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4EC6B5BF1D3869A400D28BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EC6B5D31D38740100D28BF2 /* FaceTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceTracker.framework; sourceTree = "<group>"; };
+		4EC68A071D3AB96900BEA1B8 /* FacialTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacialTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC68A0A1D3AB96900BEA1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EC68A0C1D3AB96900BEA1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EC68A0F1D3AB96900BEA1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC68A111D3AB96900BEA1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EC68A141D3AB96900BEA1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EC68A161D3AB96900BEA1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC68A1C1D3AB9A900BEA1B8 /* FaceTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceTracker.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EC6B5AD1D3869A400D28BF2 /* Frameworks */ = {
+		4EC68A041D3AB96900BEA1B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC6B5D81D38742100D28BF2 /* FaceTracker.framework in Frameworks */,
+				4EC68A1D1D3AB9A900BEA1B8 /* FaceTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4EC6B5A71D3869A400D28BF2 = {
+		4EC689FE1D3AB96900BEA1B8 = {
 			isa = PBXGroup;
 			children = (
-				4EC6B5B21D3869A400D28BF2 /* FaceTracker */,
-				4EC6B5B11D3869A400D28BF2 /* Products */,
-				4EC6B5D31D38740100D28BF2 /* FaceTracker.framework */,
+				4EC68A1C1D3AB9A900BEA1B8 /* FaceTracker.framework */,
+				4EC68A091D3AB96900BEA1B8 /* FacialTracker */,
+				4EC68A081D3AB96900BEA1B8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4EC6B5B11D3869A400D28BF2 /* Products */ = {
+		4EC68A081D3AB96900BEA1B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EC6B5B01D3869A400D28BF2 /* FaceTracker.app */,
+				4EC68A071D3AB96900BEA1B8 /* FacialTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EC6B5B21D3869A400D28BF2 /* FaceTracker */ = {
+		4EC68A091D3AB96900BEA1B8 /* FacialTracker */ = {
 			isa = PBXGroup;
 			children = (
-				4EC6B5B31D3869A400D28BF2 /* AppDelegate.swift */,
-				4EC6B5B51D3869A400D28BF2 /* ViewController.swift */,
-				4EC6B5B71D3869A400D28BF2 /* Main.storyboard */,
-				4EC6B5BA1D3869A400D28BF2 /* Assets.xcassets */,
-				4EC6B5BC1D3869A400D28BF2 /* LaunchScreen.storyboard */,
-				4EC6B5BF1D3869A400D28BF2 /* Info.plist */,
+				4EC68A0A1D3AB96900BEA1B8 /* AppDelegate.swift */,
+				4EC68A0C1D3AB96900BEA1B8 /* ViewController.swift */,
+				4EC68A0E1D3AB96900BEA1B8 /* Main.storyboard */,
+				4EC68A111D3AB96900BEA1B8 /* Assets.xcassets */,
+				4EC68A131D3AB96900BEA1B8 /* LaunchScreen.storyboard */,
+				4EC68A161D3AB96900BEA1B8 /* Info.plist */,
 			);
-			path = FaceTracker;
+			path = FacialTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EC6B5AF1D3869A400D28BF2 /* FaceTracker */ = {
+		4EC68A061D3AB96900BEA1B8 /* FacialTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EC6B5C21D3869A400D28BF2 /* Build configuration list for PBXNativeTarget "FaceTracker" */;
+			buildConfigurationList = 4EC68A191D3AB96900BEA1B8 /* Build configuration list for PBXNativeTarget "FacialTracker" */;
 			buildPhases = (
-				4EC6B5AC1D3869A400D28BF2 /* Sources */,
-				4EC6B5AD1D3869A400D28BF2 /* Frameworks */,
-				4EC6B5AE1D3869A400D28BF2 /* Resources */,
-				4EC6B5DA1D38742100D28BF2 /* Embed Frameworks */,
+				4EC68A031D3AB96900BEA1B8 /* Sources */,
+				4EC68A041D3AB96900BEA1B8 /* Frameworks */,
+				4EC68A051D3AB96900BEA1B8 /* Resources */,
+				4EC68A1F1D3AB9AB00BEA1B8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FaceTracker;
-			productName = FaceTracker;
-			productReference = 4EC6B5B01D3869A400D28BF2 /* FaceTracker.app */;
+			name = FacialTracker;
+			productName = FacialTracker;
+			productReference = 4EC68A071D3AB96900BEA1B8 /* FacialTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4EC6B5A81D3869A400D28BF2 /* Project object */ = {
+		4EC689FF1D3AB96900BEA1B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = EasyMob;
 				TargetAttributes = {
-					4EC6B5AF1D3869A400D28BF2 = {
+					4EC68A061D3AB96900BEA1B8 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 64BZ9T7LV6;
 					};
 				};
 			};
-			buildConfigurationList = 4EC6B5AB1D3869A400D28BF2 /* Build configuration list for PBXProject "FaceTracker" */;
+			buildConfigurationList = 4EC68A021D3AB96900BEA1B8 /* Build configuration list for PBXProject "FacialTracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,54 +128,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 4EC6B5A71D3869A400D28BF2;
-			productRefGroup = 4EC6B5B11D3869A400D28BF2 /* Products */;
+			mainGroup = 4EC689FE1D3AB96900BEA1B8;
+			productRefGroup = 4EC68A081D3AB96900BEA1B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EC6B5AF1D3869A400D28BF2 /* FaceTracker */,
+				4EC68A061D3AB96900BEA1B8 /* FacialTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EC6B5AE1D3869A400D28BF2 /* Resources */ = {
+		4EC68A051D3AB96900BEA1B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC6B5BE1D3869A400D28BF2 /* LaunchScreen.storyboard in Resources */,
-				4EC6B5BB1D3869A400D28BF2 /* Assets.xcassets in Resources */,
-				4EC6B5B91D3869A400D28BF2 /* Main.storyboard in Resources */,
+				4EC68A151D3AB96900BEA1B8 /* LaunchScreen.storyboard in Resources */,
+				4EC68A121D3AB96900BEA1B8 /* Assets.xcassets in Resources */,
+				4EC68A101D3AB96900BEA1B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4EC6B5AC1D3869A400D28BF2 /* Sources */ = {
+		4EC68A031D3AB96900BEA1B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC6B5B61D3869A400D28BF2 /* ViewController.swift in Sources */,
-				4EC6B5B41D3869A400D28BF2 /* AppDelegate.swift in Sources */,
+				4EC68A0D1D3AB96900BEA1B8 /* ViewController.swift in Sources */,
+				4EC68A0B1D3AB96900BEA1B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4EC6B5B71D3869A400D28BF2 /* Main.storyboard */ = {
+		4EC68A0E1D3AB96900BEA1B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EC6B5B81D3869A400D28BF2 /* Base */,
+				4EC68A0F1D3AB96900BEA1B8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4EC6B5BC1D3869A400D28BF2 /* LaunchScreen.storyboard */ = {
+		4EC68A131D3AB96900BEA1B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EC6B5BD1D3869A400D28BF2 /* Base */,
+				4EC68A141D3AB96900BEA1B8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4EC6B5C01D3869A400D28BF2 /* Debug */ = {
+		4EC68A171D3AB96900BEA1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		4EC6B5C11D3869A400D28BF2 /* Release */ = {
+		4EC68A181D3AB96900BEA1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,7 +268,7 @@
 			};
 			name = Release;
 		};
-		4EC6B5C31D3869A400D28BF2 /* Debug */ = {
+		4EC68A1A1D3AB96900BEA1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -277,14 +277,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = FaceTracker/Info.plist;
+				INFOPLIST_FILE = FacialTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coursera.facetracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coursera.FacialTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4EC6B5C41D3869A400D28BF2 /* Release */ = {
+		4EC68A1B1D3AB96900BEA1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,9 +293,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = FaceTracker/Info.plist;
+				INFOPLIST_FILE = FacialTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.coursera.facetracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coursera.FacialTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -303,24 +303,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EC6B5AB1D3869A400D28BF2 /* Build configuration list for PBXProject "FaceTracker" */ = {
+		4EC68A021D3AB96900BEA1B8 /* Build configuration list for PBXProject "FacialTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EC6B5C01D3869A400D28BF2 /* Debug */,
-				4EC6B5C11D3869A400D28BF2 /* Release */,
+				4EC68A171D3AB96900BEA1B8 /* Debug */,
+				4EC68A181D3AB96900BEA1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EC6B5C21D3869A400D28BF2 /* Build configuration list for PBXNativeTarget "FaceTracker" */ = {
+		4EC68A191D3AB96900BEA1B8 /* Build configuration list for PBXNativeTarget "FacialTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EC6B5C31D3869A400D28BF2 /* Debug */,
-				4EC6B5C41D3869A400D28BF2 /* Release */,
+				4EC68A1A1D3AB96900BEA1B8 /* Debug */,
+				4EC68A1B1D3AB96900BEA1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4EC6B5A81D3869A400D28BF2 /* Project object */;
+	rootObject = 4EC689FF1D3AB96900BEA1B8 /* Project object */;
 }
