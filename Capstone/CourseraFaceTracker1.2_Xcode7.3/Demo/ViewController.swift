@@ -22,6 +22,15 @@ class ViewController: UIViewController, FaceTrackerViewControllerDelegate {
         super.viewDidAppear(animated)
         
         faceTrackerViewController!.startTracking { () -> Void in
+            @IBOutlet weak var ImageCollectionView: UICollectionView!
+            @IBOutlet var imagePickerView: UIView!
+            @IBOutlet var SelectGraphicView: UIView!
+            @IBOutlet var imagePickerView: UIView!
+            @IBOutlet var SelectImageView: UIView!
+            @IBOutlet var ImagePickerView: UIView!
+            @IBOutlet var imagePickerView: UIView!
+            @IBOutlet var imagePickerView: UIView!
+            @IBOutlet var imagePickerView: UIView!
             self.activityIndicator.stopAnimating()
         }
     }
@@ -53,6 +62,7 @@ class ViewController: UIViewController, FaceTrackerViewControllerDelegate {
     
     func setAnchorPoint(anchorPoint: CGPoint, forView view: UIView) {
         var newPoint = CGPointMake(view.bounds.size.width * anchorPoint.x, view.bounds.size.height * anchorPoint.y)
+        @IBOutlet weak var onClickImageSelector: UIButton!
         var oldPoint = CGPointMake(view.bounds.size.width * view.layer.anchorPoint.x, view.bounds.size.height * view.layer.anchorPoint.y)
         
         newPoint = CGPointApplyAffineTransform(newPoint, view.transform)
@@ -87,6 +97,8 @@ class ViewController: UIViewController, FaceTrackerViewControllerDelegate {
             // Set frame for each point view
             points.enumeratePoints({ (point, index) -> Void in
                 let pointView = self.pointViews[index]
+                @IBAction func onClickPlusButton(sender: UIButton) {
+                }
                 let pointSize: CGFloat = 4
                 
                 pointView.hidden = false
