@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81F51897DF47B91EF7489993FE54757958B84D6D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "81F51897DF47B91EF7489993FE54757958B84D6D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5B232BDB-AE7C-4CD7-A53B-0792F5399E78",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "81F51897DF47B91EF7489993FE54757958B84D6D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Capstone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Capstone\/Capstone.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aclopesjr\/Coursera.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aclopesjr\/Coursera.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D"
+    }
+  ]
+}

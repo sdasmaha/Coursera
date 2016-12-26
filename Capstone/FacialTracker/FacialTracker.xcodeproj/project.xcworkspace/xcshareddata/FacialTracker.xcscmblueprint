@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81F51897DF47B91EF7489993FE54757958B84D6D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "81F51897DF47B91EF7489993FE54757958B84D6D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1BBF46B3-25B6-473C-AE96-719841FFB22B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "81F51897DF47B91EF7489993FE54757958B84D6D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FacialTracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Capstone\/FacialTracker\/FacialTracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aclopesjr\/Coursera.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aclopesjr\/Coursera.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D"
+    }
+  ]
+}
