@@ -25,45 +25,107 @@
                                 </connections>
                             </containerView>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5L-ay-iBh">
-                                <rect key="frame" x="495" y="495" width="60" height="60"/>
+                                <rect key="frame" x="495" y="520" width="60" height="60"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="JXa-5X-Ink"/>
+                                    <constraint firstAttribute="width" constant="60" id="ahy-Lf-DUH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="k21-uw-BW1"/>
                                     <constraint firstAttribute="width" constant="60" id="uBL-7v-c1b"/>
                                 </constraints>
                                 <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
-                                <state key="normal" image="Image"/>
+                                <state key="normal" image="plus-symbol"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="30"/>
                                 </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="uBL-7v-c1b"/>
+                                    </mask>
+                                </variation>
                                 <connections>
-                                    <action selector="onClickImageSelector:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yuy-Jx-DkS"/>
+                                    <action selector="onClickMainButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rWC-db-Zr5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2i-Db-te5">
+                                <rect key="frame" x="495" y="440" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="D6M-nU-G21"/>
+                                    <constraint firstAttribute="height" constant="60" id="odr-cW-l9X"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="moustache-symbol"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickMoustacheButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="qBY-Vh-cUe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98F-XG-Wbq">
+                                <rect key="frame" x="495" y="360" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="3bP-o7-Vdo"/>
+                                    <constraint firstAttribute="width" constant="60" id="vZ3-jX-FR4"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="hat-symbol"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickHatButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="D1r-I1-mYF"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="h5L-ay-iBh" firstAttribute="top" secondItem="z2i-Db-te5" secondAttribute="bottom" constant="20" id="Hzf-KP-lbA"/>
+                            <constraint firstItem="h5L-ay-iBh" firstAttribute="top" secondItem="z2i-Db-te5" secondAttribute="bottom" constant="42" id="Oyy-mc-p1w"/>
                             <constraint firstItem="FMA-Td-7Iv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TV7-cp-E5E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="98F-XG-Wbq" secondAttribute="trailing" constant="25" id="WT0-Mx-DFB"/>
+                            <constraint firstItem="z2i-Db-te5" firstAttribute="top" secondItem="98F-XG-Wbq" secondAttribute="bottom" constant="20" id="ag1-vc-gKg"/>
                             <constraint firstItem="FMA-Td-7Iv" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="cQF-HI-EVX"/>
                             <constraint firstItem="FMA-Td-7Iv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eUk-Bc-dAF"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h5L-ay-iBh" secondAttribute="bottom" constant="45" id="gdH-Nu-hcr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h5L-ay-iBh" secondAttribute="trailing" constant="25" id="iug-iC-xXd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z2i-Db-te5" secondAttribute="trailing" constant="25" id="kz8-Kp-2rb"/>
                             <constraint firstItem="h5L-ay-iBh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-25" id="nbO-0v-6Bd"/>
+                            <constraint firstItem="z2i-Db-te5" firstAttribute="leading" secondItem="FMA-Td-7Iv" secondAttribute="trailing" constant="-105" id="q12-gP-Q8s"/>
                             <constraint firstAttribute="bottom" secondItem="h5L-ay-iBh" secondAttribute="bottom" constant="45" id="uQr-fC-jOc"/>
                             <constraint firstAttribute="trailing" secondItem="FMA-Td-7Iv" secondAttribute="trailing" id="vDw-zC-t3m"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h5L-ay-iBh" secondAttribute="bottom" constant="20" id="xE5-ks-KXA"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gdH-Nu-hcr"/>
+                                <exclude reference="Oyy-mc-p1w"/>
+                                <exclude reference="nbO-0v-6Bd"/>
+                                <exclude reference="uQr-fC-jOc"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
+                        <outlet property="hatButton" destination="98F-XG-Wbq" id="pwh-Qx-XOu"/>
                         <outlet property="imageCollectionView" destination="tsV-3G-hTL" id="pZF-Mb-QT6"/>
                         <outlet property="imagePickerView" destination="UtD-nP-TGS" id="5nW-lV-whv"/>
+                        <outlet property="mainButton" destination="h5L-ay-iBh" id="bnX-6z-KN7"/>
+                        <outlet property="moustacheButton" destination="z2i-Db-te5" id="POB-qq-IWE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <view contentMode="scaleToFill" id="UtD-nP-TGS">
-                    <rect key="frame" x="0.0" y="0.0" width="336" height="375"/>
+                    <rect key="frame" x="0.0" y="0.0" width="336" height="180"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tsV-3G-hTL">
-                            <rect key="frame" x="0.0" y="0.0" width="336" height="375"/>
+                            <rect key="frame" x="0.0" y="0.0" width="336" height="180"/>
                             <color key="backgroundColor" red="1" green="0.65127926260000002" blue="0.086754066409999997" alpha="1" colorSpace="calibratedRGB"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FPn-8B-jbd">
                                 <size key="itemSize" width="75" height="75"/>
@@ -149,6 +211,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="100" height="100"/>
+        <image name="hat-symbol" width="64" height="64"/>
+        <image name="moustache-symbol" width="64" height="64"/>
+        <image name="plus-symbol" width="128" height="128"/>
     </resources>
 </document>

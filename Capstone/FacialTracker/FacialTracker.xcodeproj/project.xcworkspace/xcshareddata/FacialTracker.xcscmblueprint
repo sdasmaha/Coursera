@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81F51897DF47B91EF7489993FE54757958B84D6D",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81F51897DF47B91EF7489993FE54757958B84D6D+++63F64A3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "81F51897DF47B91EF7489993FE54757958B84D6D" : 0
+    "81F51897DF47B91EF7489993FE54757958B84D6D+++63F64A3" : 0,
+    "81F51897DF47B91EF7489993FE54757958B84D6D+++250939D" : 0,
+    "81F51897DF47B91EF7489993FE54757958B84D6D+++E9E8F46" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1BBF46B3-25B6-473C-AE96-719841FFB22B",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "95AFE0A6-F1E9-4A40-82A9-41F0B31FB0F3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "81F51897DF47B91EF7489993FE54757958B84D6D" : ""
+    "81F51897DF47B91EF7489993FE54757958B84D6D+++63F64A3" : "XCode%207.3\/",
+    "81F51897DF47B91EF7489993FE54757958B84D6D+++250939D" : "",
+    "81F51897DF47B91EF7489993FE54757958B84D6D+++E9E8F46" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "FacialTracker",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aclopesjr\/Coursera.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D+++250939D"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aclopesjr\/Coursera.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D+++63F64A3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aclopesjr\/Coursera.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81F51897DF47B91EF7489993FE54757958B84D6D+++E9E8F46"
     }
   ]
 }
